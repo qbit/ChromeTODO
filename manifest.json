@@ -1,0 +1,16 @@
+{
+	"background_page": "background.html",
+	"browser_action" : {
+		"default_title": ""
+	},
+
+	"description": "TODO List manager for chrome",
+	"icons": {
+		"128": "icon_128.png"
+	},
+	"name": "ChromeTODO",
+	"options_page": "options.html",
+	"permissions": [ "tabs", "http*://*" ],
+	"update_url" : "http://qbit.github.com/ChromeTODO/update.xml",
+	"version": "1.0"
+}
